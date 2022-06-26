@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "color-hex-case": "lower",
+    "declaration-colon-newline-after": null,
+    "max-nesting-depth": 5,
+    "selector-class-pattern": null,
+    "selector-no-qualifying-type": [true, { "ignore": ["attribute", "class","id"] }],
+    "selector-max-compound-selectors": 5,
+    "declaration-block-trailing-semicolon": null,
+    "block-no-empty": true,
+    "block-no-single-line": true,
+    "no-duplicate-selectors": true
+  }
+}

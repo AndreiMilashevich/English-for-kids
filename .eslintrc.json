@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "babelOptions": {
+      "configFile": "./webpack.config.js"
+    }
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "linebreak-style": "off",
+    "indent": "off",
+    "func-names": "off",
+    "comma-dangle": "warn",
+    "no-confusing-arrow": "warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "no-const-assign": "error",
+    "no-extra-semi": "error",
+    "no-trailing-spaces": "error"
+  }
+}
